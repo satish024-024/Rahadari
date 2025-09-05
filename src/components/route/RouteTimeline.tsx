@@ -1,6 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { Cloud, CloudRain, Sun, Wind, Eye, Droplets } from 'lucide-react';
 
 interface WeatherPoint {
   location: string;
@@ -16,6 +14,12 @@ interface WeatherPoint {
   distance: number;
 }
 
-export const RouteTimeline: React.FC<{ points: WeatherPoint[] }> = ({ points }) => {
-  // ...existing code...
+const RouteTimeline: React.FC<{ points: WeatherPoint[] }> = ({ points }) => {
+  return (
+    <div>
+      {/* TODO: Implement RouteTimeline logic and UI */}
+    </div>
+  );
 };
+
+export default RouteTimeline;
