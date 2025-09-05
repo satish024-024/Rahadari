@@ -1,0 +1,127 @@
+{
+  "app": {
+    "name": "राहदारी",
+    "tagline": "मौसम-एकीकृत मार्ग योजना",
+    "description": "भारत भर में वास्तविक समय मौसम की स्थिति के साथ अपनी यात्रा की योजना बनाएं"
+  },
+  "navigation": {
+    "home": "होम",
+    "routes": "मार्ग",
+    "weather": "मौसम",
+    "settings": "सेटिंग्स",
+    "about": "के बारे में"
+  },
+  "search": {
+    "source": "प्रारंभिक स्थान",
+    "destination": "गंतव्य",
+    "departureTime": "प्रस्थान समय",
+    "travelMode": "यात्रा मोड",
+    "search": "मार्ग खोजें",
+    "currentLocation": "वर्तमान स्थान का उपयोग करें",
+    "placeholder": {
+      "source": "प्रारंभिक स्थान दर्ज करें...",
+      "destination": "गंतव्य दर्ज करें..."
+    }
+  },
+  "travelModes": {
+    "bike": "बाइक",
+    "car": "कार",
+    "bus": "बस"
+  },
+  "weather": {
+    "current": "वर्तमान मौसम",
+    "forecast": "पूर्वानुमान",
+    "temperature": "तापमान",
+    "humidity": "आर्द्रता",
+    "rainProbability": "बारिश की संभावना",
+    "windSpeed": "हवा की गति",
+    "visibility": "दृश्यता",
+    "pressure": "दबाव",
+    "feelsLike": "महसूस होता है",
+    "conditions": {
+      "clear": "साफ",
+      "partly-cloudy": "आंशिक रूप से बादल",
+      "cloudy": "बादल",
+      "rain": "बारिश",
+      "heavy-rain": "भारी बारिश",
+      "storm": "तूफान",
+      "fog": "कोहरा",
+      "snow": "बर्फ",
+      "haze": "धुंध"
+    },
+    "severity": {
+      "low": "अच्छा",
+      "medium": "सावधानी",
+      "high": "खतरनाक"
+    }
+  },
+  "route": {
+    "totalDistance": "कुल दूरी",
+    "totalDuration": "कुल अवधि",
+    "waypoints": "मार्ग बिंदु",
+    "alternatives": "वैकल्पिक मार्ग",
+    "weatherTimeline": "मौसम समयरेखा",
+    "roadConditions": "सड़क की स्थिति",
+    "recommendations": "सिफारिशें",
+    "warnings": "चेतावनियां"
+  },
+  "alerts": {
+    "heavyRain": "भारी बारिश की उम्मीद - यात्रा स्थगित करने पर विचार करें",
+    "strongWinds": "तेज हवाएं - गति कम करें",
+    "poorVisibility": "खराब दृश्यता - हेडलाइट्स का उपयोग करें",
+    "extremeHeat": "अत्यधिक गर्मी - हाइड्रेटेड रहें",
+    "coldWeather": "ठंडा मौसम - गर्म कपड़े पहनें"
+  },
+  "settings": {
+    "theme": "थीम",
+    "language": "भाषा",
+    "notifications": "सूचनाएं",
+    "units": "इकाइयां",
+    "privacy": "गोपनीयता",
+    "themes": {
+      "light": "हल्का",
+      "dark": "गहरा",
+      "auto": "स्वचालित"
+    },
+    "languages": {
+      "en": "English",
+      "hi": "हिन्दी",
+      "te": "తెలుగు"
+    }
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "retry": "पुनः प्रयास",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "close": "बंद करें",
+    "back": "वापस",
+    "next": "अगला",
+    "previous": "पिछला",
+    "search": "खोजें",
+    "filter": "फिल्टर",
+    "sort": "क्रमबद्ध करें",
+    "refresh": "रिफ्रेश करें",
+    "share": "साझा करें",
+    "copy": "कॉपी करें",
+    "download": "डाउनलोड",
+    "upload": "अपलोड"
+  },
+  "errors": {
+    "networkError": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें।",
+    "locationNotFound": "स्थान नहीं मिला। कृपया एक अलग खोज करें।",
+    "routeNotFound": "चयनित स्थानों के बीच कोई मार्ग नहीं मिला।",
+    "weatherUnavailable": "मौसम डेटा वर्तमान में उपलब्ध नहीं है।",
+    "permissionDenied": "अनुमति अस्वीकृत। कृपया स्थान पहुंच सक्षम करें।",
+    "apiLimitExceeded": "API सीमा पार हो गई। कृपया बाद में पुनः प्रयास करें।"
+  },
+  "success": {
+    "routeFound": "मार्ग सफलतापूर्वक मिला!",
+    "weatherUpdated": "मौसम डेटा अपडेट किया गया",
+    "settingsSaved": "सेटिंग्स सफलतापूर्वक सहेजी गईं",
+    "locationSet": "स्थान सफलतापूर्वक सेट किया गया"
+  }
+}

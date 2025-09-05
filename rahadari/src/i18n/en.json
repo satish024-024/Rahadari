@@ -1,0 +1,127 @@
+{
+  "app": {
+    "name": "Rahadari",
+    "tagline": "Weather-Integrated Route Planning",
+    "description": "Plan your journey with real-time weather conditions across India"
+  },
+  "navigation": {
+    "home": "Home",
+    "routes": "Routes",
+    "weather": "Weather",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "search": {
+    "source": "Starting Point",
+    "destination": "Destination",
+    "departureTime": "Departure Time",
+    "travelMode": "Travel Mode",
+    "search": "Search Routes",
+    "currentLocation": "Use Current Location",
+    "placeholder": {
+      "source": "Enter starting location...",
+      "destination": "Enter destination..."
+    }
+  },
+  "travelModes": {
+    "bike": "Bike",
+    "car": "Car",
+    "bus": "Bus"
+  },
+  "weather": {
+    "current": "Current Weather",
+    "forecast": "Forecast",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "rainProbability": "Rain Probability",
+    "windSpeed": "Wind Speed",
+    "visibility": "Visibility",
+    "pressure": "Pressure",
+    "feelsLike": "Feels Like",
+    "conditions": {
+      "clear": "Clear",
+      "partly-cloudy": "Partly Cloudy",
+      "cloudy": "Cloudy",
+      "rain": "Rain",
+      "heavy-rain": "Heavy Rain",
+      "storm": "Storm",
+      "fog": "Fog",
+      "snow": "Snow",
+      "haze": "Haze"
+    },
+    "severity": {
+      "low": "Good",
+      "medium": "Caution",
+      "high": "Dangerous"
+    }
+  },
+  "route": {
+    "totalDistance": "Total Distance",
+    "totalDuration": "Total Duration",
+    "waypoints": "Waypoints",
+    "alternatives": "Alternative Routes",
+    "weatherTimeline": "Weather Timeline",
+    "roadConditions": "Road Conditions",
+    "recommendations": "Recommendations",
+    "warnings": "Warnings"
+  },
+  "alerts": {
+    "heavyRain": "Heavy rain expected - consider postponing travel",
+    "strongWinds": "Strong winds detected - reduce speed",
+    "poorVisibility": "Poor visibility - use headlights",
+    "extremeHeat": "Extreme heat - stay hydrated",
+    "coldWeather": "Cold weather - dress warmly"
+  },
+  "settings": {
+    "theme": "Theme",
+    "language": "Language",
+    "notifications": "Notifications",
+    "units": "Units",
+    "privacy": "Privacy",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "auto": "Auto"
+    },
+    "languages": {
+      "en": "English",
+      "hi": "हिन्दी",
+      "te": "తెలుగు"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh",
+    "share": "Share",
+    "copy": "Copy",
+    "download": "Download",
+    "upload": "Upload"
+  },
+  "errors": {
+    "networkError": "Network error. Please check your connection.",
+    "locationNotFound": "Location not found. Please try a different search.",
+    "routeNotFound": "No route found between the selected locations.",
+    "weatherUnavailable": "Weather data is currently unavailable.",
+    "permissionDenied": "Permission denied. Please enable location access.",
+    "apiLimitExceeded": "API limit exceeded. Please try again later."
+  },
+  "success": {
+    "routeFound": "Route found successfully!",
+    "weatherUpdated": "Weather data updated",
+    "settingsSaved": "Settings saved successfully",
+    "locationSet": "Location set successfully"
+  }
+}
